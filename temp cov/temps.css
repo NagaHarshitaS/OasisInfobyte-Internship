@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&family=Ubuntu&display=swap');
+body{
+font-family: "Ubuntu",sans-serif;
+display: grid;
+background-color: #EAFDFC;
+}
+label{
+  font-size: 20px;
+  font-weight: 100;
+}
+button{
+  color: #D8D8D8;
+  box-shadow: 0.5px;
+  border:solid 2px;
+  border-color: black;
+  border-radius:25px 10px;
+  height:30px;
+  width:250px;
+}
+#b1{
+  background-color: crimson;
+  padding-left: 40px;
+}
+#b2{
+  background-color:#6C00FF ;
+  padding-left: 40px;
+}
+#b3{
+  background-color: #82CD47;
+  padding-left: 40px;
+}
+input{
+  width: 250px;
+  height:30px;
+  box-shadow: 1px;
+  border-radius: 25px;
+  border:solid 2px;
+  border-color:#03001C;
+}
+div{
+  background-color:#FFC4C4;
+  width: 500px;
+  padding-left: 150px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  border-top-width: thick;
+  margin-left: 350px;
+  margin-top: 20px;
+  border: solid 2px;
+  border-radius: 50% 20% / 10% 40%;
+  border-color: #301E67;
+
+}
