@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head style="display:block">
+<title>Temperature Converter</title>
+<link href="temps.css" rel="stylesheet" type="text/css">
+<script src="scripts.js"></script>
+</head>
+<body>
+<div>
+<h1>Temperature Converter</h1>
+<form>
+  <label class="ltemp">Temperature</label>
+  <input type="number" id="temp" step="any" placeholder="Enter Temperature" /><br><br>
+  <label>Conversion Type</label><br><br>
+  <button type="button" id="b1" onclick="celToOther()">Celcius to other</button><br><br>
+<button type="button" id="b2" onclick="frToOther()">Farenheit to other</button><br><br>
+<button type="button" id="b3" onclick="kelToOther()">Kelvin to other</button><br><br>
+<label>Celcius</label>
+<input id="celcius"><br><br>
+<label>Farenheit</label>
+<input id="farenheit"><br><br>
+<label>kelvin</label>
+<input id="kelvin"><br><br>
+</form>
+</div>
+</body>
+</html>
